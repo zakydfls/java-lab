@@ -17,12 +17,11 @@ public class MainGrade {
         int miss = sc.nextInt();
         System.out.print("Berapa score minimal yang dibutuhkan untuk Lulus : ");
         int minPass = sc.nextInt();
-
         PassFailExam pfe = new PassFailExam(jmlSoal, miss, minPass);
         System.out.println("Nama peserta ujian = " + ga.name);
         System.out.println("Poin tiap pertanyaan = " + pfe.getPointsEach());
         System.out.println("Score ujian = " + pfe.getScore());
-        System.out.println("Grade ujian = " + pfe.getGrade());
+        System.out.println("Hasil ujian = " + pfe.getGrade() + " (P = PASS, F=FAIL)");
 
         System.out.println("===== FinalExam =====");
         System.out.print("Masukkan jumlah pertanyaan : ");
