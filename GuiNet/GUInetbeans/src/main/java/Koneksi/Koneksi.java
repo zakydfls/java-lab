@@ -1,10 +1,17 @@
-package jdbc;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.Koneksi to edit this template
+ */
+package Koneksi;
 
 import java.sql.*;
 import java.util.Scanner;
-
-public class Javadatabase {
-		static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+/**
+ *
+ * @author Zaky Dafalas
+ */
+public class Koneksi {
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	    static final String DB_URL = "jdbc:mysql://127.0.0.1/javadb";
 	    static final String USER = "root";
 	    static final String PASS = "";
@@ -193,4 +200,4 @@ public class Javadatabase {
 			}
 			
 		}
-	}
+}
